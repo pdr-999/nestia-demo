@@ -4,11 +4,10 @@ import {
     RandomGenerator,
     TestValidator,
 } from "@nestia/e2e";
+import api from "@pdr-999/km-nestia/lib/index";
+import { IBbsArticle } from "@pdr-999/km-nestia/lib/structures/bbs/IBbsArticle";
+import { IPage } from "@pdr-999/km-nestia/lib/structures/common/IPage";
 import typia from "typia";
-
-import api from "@ORGANIZATION/PROJECT-api/lib/index";
-import { IBbsArticle } from "@ORGANIZATION/PROJECT-api/lib/structures/bbs/IBbsArticle";
-import { IPage } from "@ORGANIZATION/PROJECT-api/lib/structures/common/IPage";
 
 export async function test_api_bbs_article_index_sort(
     connection: api.IConnection,

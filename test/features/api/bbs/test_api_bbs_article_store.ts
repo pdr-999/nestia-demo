@@ -1,9 +1,8 @@
 import { RandomGenerator } from "@nestia/e2e";
+import api from "@pdr-999/km-nestia/lib/index";
+import { IBbsArticle } from "@pdr-999/km-nestia/lib/structures/bbs/IBbsArticle";
 import typia from "typia";
 import { v4 } from "uuid";
-
-import api from "@ORGANIZATION/PROJECT-api/lib/index";
-import { IBbsArticle } from "@ORGANIZATION/PROJECT-api/lib/structures/bbs/IBbsArticle";
 
 export async function test_api_bbs_article_store(
     connection: api.IConnection,

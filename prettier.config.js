@@ -4,15 +4,8 @@ module.exports = {
     semi: true,
     tabWidth: 4,
     trailingComma: "all",
-    importOrder: [
-        "<THIRD_PARTY_MODULES>",
-        "^@ORGANIZATION/PROJECT-api(.*)$",
-        "^[./]"
-    ],
+    importOrder: ["<THIRD_PARTY_MODULES>", "^@pdr-999/km-nestia(.*)$", "^[./]"],
     importOrderSeparation: true,
     importOrderSortSpecifiers: true,
-    importOrderParserPlugins: [
-        "decorators-legacy",
-        "typescript",
-    ]
+    importOrderParserPlugins: ["decorators-legacy", "typescript"],
 };

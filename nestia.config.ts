@@ -13,6 +13,7 @@ const NESTIA_CONFIG: sdk.INestiaConfig = {
             },
         ],
     },
+    distribute: "packages/api",
     primitive: false,
     simulate: true,
     e2e: "test",

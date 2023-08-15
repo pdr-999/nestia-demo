@@ -1,6 +1,5 @@
 import { DynamicExecutor } from "@nestia/e2e";
-
-import api from "@ORGANIZATION/PROJECT-api";
+import api from "@pdr-999/km-nestia";
 
 import { Backend } from "../src/Backend";
 import { Configuration } from "../src/Configuration";

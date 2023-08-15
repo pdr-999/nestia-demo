@@ -1,8 +1,7 @@
 import { ForbiddenException, NotFoundException } from "@nestjs/common";
+import { IBbsArticle } from "@pdr-999/km-nestia/lib/structures/bbs/IBbsArticle";
+import { IPage } from "@pdr-999/km-nestia/lib/structures/common/IPage";
 import { v4 } from "uuid";
-
-import { IBbsArticle } from "@ORGANIZATION/PROJECT-api/lib/structures/bbs/IBbsArticle";
-import { IPage } from "@ORGANIZATION/PROJECT-api/lib/structures/common/IPage";
 
 import { MapUtil } from "../../utils/MapUtil";
 
