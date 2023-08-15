@@ -1,5 +1,5 @@
 {
-  "name": "@ORGANIZATION/PROJECT-api",
+  "name": "@vultra-digital-asia/km-nestia",
   "version": "0.0.0",
   "description": "API for PROJECT",
   "main": "lib/index.js",
