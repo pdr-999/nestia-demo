@@ -1,7 +1,7 @@
 {
   "name": "@vultra-digital-asia/km-nestia",
   "version": "0.0.0",
-  "description": "API for PROJECT",
+  "description": "API for km-nesita",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": {
