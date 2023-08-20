@@ -26,6 +26,7 @@ module.exports = {
                 "@typescript-eslint/no-non-null-assertion": "off",
                 "@typescript-eslint/no-var-requires": "off",
                 "deprecation/deprecation": "error",
+                "@typescript-eslint/no-empty-function":"off"
             }
         }
     ]
