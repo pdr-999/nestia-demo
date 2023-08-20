@@ -1,0 +1,19 @@
+{
+  "bracketSpacing": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "options": {
+        "parser": "typescript"
+      },
+      "files": ["**/*.ts"]
+    },
+    {
+      "options": {
+        "parser": "json"
+      },
+      "files": ["**/.*rc", "**/*.json"]
+    }
+  ]
+}
