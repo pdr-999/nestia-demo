@@ -8,7 +8,7 @@
   ],
   "info": {
     "version": "0.1.0",
-    "title": "@ORGANIZATION/PROJECT",
+    "title": "@pdr-999/sdk",
     "description": "Starter kit of Nestia",
     "license": {
       "name": "MIT"
