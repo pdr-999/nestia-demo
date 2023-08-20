@@ -24,7 +24,7 @@ export class Backend {
         // DO OPEN
         this.application_.enableCors();
         await this.application_.listen(Configuration.API_PORT());
-        console.log("🚀 Starting server at", Configuration.API_PORT());
+        console.log("🚀 Starting server at", `http://localhost:${Configuration.API_PORT()}`);
 
         //----
         // POST-PROCESSES
