@@ -1,5 +1,5 @@
 export interface IAttachmentFile {
-    name: string;
-    extension: string | null;
-    url: string;
+  name: string;
+  extension: string | null;
+  url: string;
 }

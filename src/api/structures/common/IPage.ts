@@ -6,67 +6,67 @@
  * @author Samchon
  */
 export interface IPage<T extends object> {
-    /**
-     * Page information.
-     */
-    pagination: IPage.IPagination;
+  /**
+   * Page information.
+   */
+  pagination: IPage.IPagination;
 
-    /**
-     * List of records.
-     */
-    data: T[];
+  /**
+   * List of records.
+   */
+  data: T[];
 }
 export namespace IPage {
+  /**
+   * Page information.
+   */
+  export interface IPagination {
     /**
-     * Page information.
+     * Current page number.
      */
-    export interface IPagination {
-        /**
-         * Current page number.
-         */
-        current: number;
-
-        /**
-         * Limitation of records per a page.
-         *
-         * @default 100
-         */
-        limit: number;
-
-        /**
-         * Count of total records in database.
-         */
-        records: number;
-
-        /**
-         * Number of total pages.
-         *
-         * Equal to {@link records} / {@link limit} with ceiling.
-         */
-        pages: number;
-    }
+    current: number;
 
     /**
-     * Page request data
-     */
-    export interface IRequest {
-        /**
-         * Page number.
-         */
-        page?: number;
-
-        /**
-         * Limitation of records per a page.
-         */
-        limit?: number;
-    }
-
-    /**
-     * Sorting column specialization.
+     * Limitation of records per a page.
      *
-     * The plus means ascending order and the minus means descending order.
+     * @default 100
      */
-    export type Sort<Literal extends string> = Array<
-        `-${Literal}` | `+${Literal}`
-    >;
+    limit: number;
+
+    /**
+     * Count of total records in database.
+     */
+    records: number;
+
+    /**
+     * Number of total pages.
+     *
+     * Equal to {@link records} / {@link limit} with ceiling.
+     */
+    pages: number;
+  }
+
+  /**
+   * Page request data
+   */
+  export interface IRequest {
+    /**
+     * Page number.
+     */
+    page?: number;
+
+    /**
+     * Limitation of records per a page.
+     */
+    limit?: number;
+  }
+
+  /**
+   * Sorting column specialization.
+   *
+   * The plus means ascending order and the minus means descending order.
+   */
+  export type Sort<Literal extends string> = Array<
+    `-${Literal}` | `+${Literal}`
+  >;
 }

@@ -1,5 +1,5 @@
-export type * from "./IConnection";
-export type * from "./Primitive";
-export * from "./HttpError";
+export type * from './IConnection';
+export type * from './Primitive';
+export * from './HttpError';
 
-export * as functional from "./functional";
+export * as functional from './functional';
